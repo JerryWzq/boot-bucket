@@ -1,0 +1,196 @@
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 6104 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:13:16 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 810 ms
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:13:17 [main] com.wzq.Application - Started Application in 1.499 seconds (JVM running for 2.335)
+[[34mINFO [0;39m] 2018-11-29 16:13:31 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[34mINFO [0;39m] 2018-11-29 16:13:31 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[[34mINFO [0;39m] 2018-11-29 16:13:31 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 5152 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 828 ms
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:29 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:14:30 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:14:30 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:14:30 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:14:30 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:14:30 [main] com.wzq.Application - Started Application in 1.719 seconds (JVM running for 2.499)
+[[34mINFO [0;39m] 2018-11-29 16:14:34 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[34mINFO [0;39m] 2018-11-29 16:14:34 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[[34mINFO [0;39m] 2018-11-29 16:14:34 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[[34mINFO [0;39m] 2018-11-29 16:14:34 [http-nio-8080-exec-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[[34mINFO [0;39m] 2018-11-29 16:39:47 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 5368 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:39:47 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:39:48 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 897 ms
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:39:49 [main] com.wzq.Application - Started Application in 1.856 seconds (JVM running for 2.831)
+[[34mINFO [0;39m] 2018-11-29 16:44:41 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 11196 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:44:41 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 818 ms
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:44:42 [main] com.wzq.Application - Started Application in 1.69 seconds (JVM running for 2.501)
+[[34mINFO [0;39m] 2018-11-29 16:51:18 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 9724 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:51:18 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 772 ms
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:19 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:51:20 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:51:20 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:51:20 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:51:20 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:51:20 [main] com.wzq.Application - Started Application in 1.69 seconds (JVM running for 2.514)
+[[34mINFO [0;39m] 2018-11-29 16:57:29 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 10448 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:57:29 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 885 ms
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:30 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:57:31 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:57:31 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:57:31 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:57:31 [main] com.wzq.Application - Started Application in 1.795 seconds (JVM running for 2.58)
+[[34mINFO [0;39m] 2018-11-29 16:57:55 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 10380 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:57:55 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 853 ms
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:56 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:57:57 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:57:57 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:57:57 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:57:57 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:57:57 [main] com.wzq.Application - Started Application in 1.743 seconds (JVM running for 2.48)
+[[34mINFO [0;39m] 2018-11-29 16:58:12 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 6504 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 16:58:12 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 819 ms
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:13 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 16:58:14 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 16:58:14 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 16:58:14 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 16:58:14 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 16:58:14 [main] com.wzq.Application - Started Application in 1.676 seconds (JVM running for 2.499)
+[[34mINFO [0;39m] 2018-11-29 17:00:02 [main] com.wzq.Application - Starting Application on SF0001106059A with PID 8504 (D:\GitProject\boot-bucket\spring-mybatis-druid\target\classes started by 89005707 in D:\GitProject\boot-bucket)
+[[34mINFO [0;39m] 2018-11-29 17:00:02 [main] com.wzq.Application - No active profile set, falling back to default profiles: default
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Tools\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;D:\Tools\Java\jdk1.8\bin;D:\Tools\Java\jdk1.8\jre\bin;;.]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 857 ms
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+[[34mINFO [0;39m] 2018-11-29 17:00:03 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[[34mINFO [0;39m] 2018-11-29 17:00:04 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[[34mINFO [0;39m] 2018-11-29 17:00:04 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[[34mINFO [0;39m] 2018-11-29 17:00:04 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[[34mINFO [0;39m] 2018-11-29 17:00:04 [main] com.wzq.Application - Started Application in 1.7 seconds (JVM running for 2.543)
