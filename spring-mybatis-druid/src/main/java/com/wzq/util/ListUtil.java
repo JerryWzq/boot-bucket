@@ -7,7 +7,7 @@ import java.util.List;
  * 类描述:
  * list集合工具类
  *
- * @author 顺丰科技开源(opensource @ sfmail.sf - express.com)
+ * @author
  * @version 1.7
  * @date 2018-12-12 18:20
  */
@@ -21,7 +21,7 @@ public class ListUtil {
      * @return
      */
     public static <T> List<List<T>> splitList(List<T> source, int n) throws Exception {
-        if(source.isEmpty() || source == null){
+        if(source == null || source.isEmpty()){
             throw new Exception("list is empty or is null");
         }
 

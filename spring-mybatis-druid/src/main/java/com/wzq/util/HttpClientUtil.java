@@ -26,7 +26,7 @@ import java.util.*;
  * 类描述:
  * http请求相关方法
  *
- * @author 顺丰科技开源(opensource@sfmail.sf-express.com)
+ * @author
  * @version 1.0.0
  * @date 2018-4-14 13:55:36
 */
