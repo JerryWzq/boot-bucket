@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--映射文件配置，namespace指向接口-->
+<mapper namespace="com.wzq.boot.mapper.MemberMapper">
+
+    <!--#根据ID查询记录-->
+    <select id="findObjectById" parameterType="java.lang.Integer" resultType="com.wzq.boot.model.Member">
+        select * from memeber where id = #{value}
+    </select>
+
+    <select id="selectList" resultType="com.wzq.boot.model.Member">
+        select * from memeber
+    </select>
+
+</mapper>

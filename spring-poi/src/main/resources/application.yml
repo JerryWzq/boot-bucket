@@ -1,0 +1,24 @@
+spring:
+#  profiles: dev
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource    # 配置当前要使用的数据源的操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver        # 配置MySQL的驱动程序类
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false           # 数据库连接地址
+    username: root                                  # 数据库用户名
+    password: 123456                                # 数据库连接密码
+    dbcp2:                                          # 进行数据库连接池的配置
+      min-idle: 5                                   # 数据库连接池的最小维持连接数
+      initial-size: 5                               # 初始化提供的连接数
+      max-total: 5                                  # 最大的连接数
+      max-wait-millis: 200                          # 等待连接获取的最大超时时间
+
+#mybatis的mapper配置文件
+mybatis:
+#  config-location: classpath:datasource.xml  # mybatis配置文件所在路径
+  #org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):com.wzq.mapper.MemberMapper.findObjectById
+  mapper-locations: classpath:mapper/*.xml   # 所有的mapper映射文件, 必须
+#  type-aliases-package: com.wzq.mapper # 定义所有操作类mapper的别名所在包， 也可以通过注解【@MapperScan("com.wzq.mapper")加载启动类上】代替，二者选其一
+debug: true
+
+server:
+  port: 8888
