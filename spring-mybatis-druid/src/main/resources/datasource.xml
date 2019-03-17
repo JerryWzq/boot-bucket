@@ -3,6 +3,18 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <!-- 功能：给对应的全类名取一个别名，当mapper.xml文件中有用到，直接使用对应的全类名即可。
+            如：CityMapper.xml文件中resultType
+            -->
+        <typeAlias type="com.wzq.model.City" alias="City" />
+        <typeAlias type="org.apache.ibatis.type.EnumTypeHandler" alias="EnumTypeHandler" />
+        <!-- package配合注解@Alias使用 -->
+        <package name="com.wzq.model" />
+    </typeAliases>
     <mappers>
     </mappers>
 </configuration>

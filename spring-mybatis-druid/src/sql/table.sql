@@ -1,28 +1,32 @@
 DROP TABLE IF EXISTS `city`;
+
 CREATE TABLE `city` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `city_name` varchar(255) DEFAULT NULL COMMENT '名称',
   `p_id` int(11) NOT NULL COMMENT '省份id',
-  PRIMARY KEY (`id`),
-  KEY `fk_province` (`p_id`),
-  CONSTRAINT `city_ibfk_1` FOREIGN KEY (`p_id`) REFERENCES `province` (`id`) ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COMMENT='市级信息';
+  `size` varchar(15) NOT NULL DEFAULT 'BIG' COMMENT '城市大小：SMALL,BIG,LARGE',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COMMENT='市级信息';
 
 /*Data for the table `city` */
 
-insert  into `city`(`id`,`city_name`,`p_id`) values (1,'济南',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (2,'青岛',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (3,'烟台',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (4,'威海',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (5,'济宁',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (6,'潍坊',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (7,'淄博',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (8,'聊城',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (9,'临沂',1);
-insert  into `city`(`id`,`city_name`,`p_id`) values (10,'菏泽',1);
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (1,'济南',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (2,'青岛',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (3,'烟台',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (4,'威海',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (5,'济宁',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (6,'潍坊',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (7,'淄博',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (8,'聊城',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (9,'临沂',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (10,'菏泽',1,'BIG');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (11,'日照',1,'SMALL');
+insert  into `city`(`id`,`city_name`,`p_id`,`size`) values (12,'泰安',1,'SMALL');
 
 /*Table structure for table `province` */
+
 DROP TABLE IF EXISTS `province`;
+
 CREATE TABLE `province` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `province_code` varchar(255) DEFAULT NULL COMMENT '代码',

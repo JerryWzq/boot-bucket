@@ -25,7 +25,7 @@ public class CityService implements BaseService<City> {
 
     @Override
     public boolean add(City city) {
-        return false;
+        return mapper.add(city);
     }
 
     @Override

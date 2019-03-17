@@ -5,8 +5,22 @@
 <!--映射文件配置，namespace指向接口-->
 <mapper namespace="com.wzq.mapper.CityMapper">
 
-    <select id="selectAll" resultType="com.wzq.model.City">
+    <resultMap type="com.wzq.model.City" id="cityMap">
+        <id column="id" property="id"/>
+        <result column="city_name" property="cityName"/>
+        <result column="p_id" property="pId"/>
+        <result column="size" property="citySize" typeHandler="EnumTypeHandler"/>
+    </resultMap>
+
+    <!--<select id="selectAll" resultType="City">-->
+    <select id="selectAll" resultMap="cityMap">
         select * from city
     </select>
 
+    <insert id="add" parameterType="City">
+        insert into city
+          (city_name, p_id, size)
+          values
+          (#{cityName}, #{pId}, #{citySize,typeHandler=EnumTypeHandler})
+    </insert>
 </mapper>
