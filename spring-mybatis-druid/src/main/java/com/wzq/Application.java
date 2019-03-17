@@ -26,15 +26,15 @@ public class Application {
 //            System.err.println(entry.getKey() + "===" + entry.getValue());
 //        }
 
-        Runtime runtime = Runtime.getRuntime();
-        try {
-            Process p = runtime.exec("\"D:\\Program Files\\Notepad++\\notepad++.exe\"");
-            Thread.sleep(10000);
-            p.destroy();
-            System.out.println("nodePad++>>>>>>>>"+p.exitValue());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        Runtime runtime = Runtime.getRuntime();
+//        try {
+//            Process p = runtime.exec("\"D:\\Program Files\\Notepad++\\notepad++.exe\"");
+//            Thread.sleep(10000);
+//            p.destroy();
+//            System.out.println("nodePad++>>>>>>>>"+p.exitValue());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
     }
 }
