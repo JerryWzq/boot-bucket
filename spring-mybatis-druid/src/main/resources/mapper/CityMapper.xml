@@ -5,4 +5,8 @@
 <!--映射文件配置，namespace指向接口-->
 <mapper namespace="com.wzq.mapper.CityMapper">
 
+    <select id="selectAll" resultType="com.wzq.model.City">
+        select * from city
+    </select>
+
 </mapper>
