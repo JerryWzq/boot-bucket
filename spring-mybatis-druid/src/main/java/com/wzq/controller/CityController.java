@@ -1,9 +1,7 @@
 package com.wzq.controller;
 
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.wzq.constant.CitySize;
 import com.wzq.model.City;
 import com.wzq.service.CityService;
 import com.wzq.vo.BaseVo;
@@ -34,10 +32,11 @@ public class CityController {
 
     @PostMapping("/add")
     public Object add(@RequestBody CityVo cityVo){
+        logger.info("添加城市：{}", cityVo);
         City city = new City();
         city.setCityName(cityVo.getCityName());
-        city.setCitySize(CitySize.SMALL);
-        city.setPId(1);
+        city.setCitySize(cityVo.getCitySize());
+        city.setPId(cityVo.getPId());
         return cityService.add(city);
     }
 

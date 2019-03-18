@@ -22,3 +22,8 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml   # 所有的mapper映射文件, 必须
 #  type-aliases-package: com.wzq.mapper # 定义所有操作类mapper的别名所在包， 也可以通过注解【@MapperScan("com.wzq.mapper")加载启动类上】代替，二者选其一
 debug: true
+logging:
+  level:
+   com.wzq.mapper: debug
+server:
+  port: 8090
