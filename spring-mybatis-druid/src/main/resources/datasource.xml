@@ -3,6 +3,12 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!--
+        注意configuration中各个属性配置的顺序应为：
+            properties,settings,typeAliases,typeHandlers,objectFactory,
+            objectWrapperFactory,reflectorFactory,plugins,environments,
+            databaseIdProvider,mappers)
+    -->
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
@@ -15,6 +21,9 @@
         <!-- package配合注解@Alias使用 -->
         <package name="com.wzq.model" />
     </typeAliases>
+
+    <!--实例化目标类-->
+    <objectFactory type="com.wzq.factory.CityObjectFactory"/>
     <mappers>
     </mappers>
 </configuration>

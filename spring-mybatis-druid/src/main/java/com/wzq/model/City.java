@@ -12,4 +12,27 @@ public class City {
     private String size;
     private CitySize citySize;
 
+    public City() {
+    }
+
+    public City(Integer id, String cityName, Integer pId, String size, CitySize citySize) {
+        System.err.println("City's constructor。。。。。");
+        this.id = id;
+        this.cityName = cityName;
+        this.pId = pId;
+        this.size = size;
+        this.citySize = citySize;
+    }
+
+    public City(Integer id, String cityName, Integer pId, CitySize citySize) {
+        this.id = id;
+        this.cityName = cityName;
+        this.pId = pId;
+        this.citySize = citySize;
+    }
+
+    public void init(){
+        size = citySize.name();
+        System.err.println("City's init method........");
+    }
 }
