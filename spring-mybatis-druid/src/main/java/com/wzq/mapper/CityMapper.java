@@ -10,6 +10,10 @@ public interface CityMapper {
 
     List<City> selectAll();
 
+    List<City> selectCities();
+
+    List<City> selectTest();
+
     boolean add(City city);
 
 }

@@ -13,6 +13,7 @@ public class City {
     private CitySize citySize;
 
     public City() {
+        System.err.println("City's constructor>>>>>>>");
     }
 
     public City(Integer id, String cityName, Integer pId, String size, CitySize citySize) {
@@ -32,7 +33,9 @@ public class City {
     }
 
     public void init(){
-        size = citySize.name();
+        //有参构造生成对象时可用，否则citySize会报空指针
+//        size = citySize.name();
+        this.citySize = CitySize.LARGE;
         System.err.println("City's init method........");
     }
 }

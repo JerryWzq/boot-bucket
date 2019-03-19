@@ -40,5 +40,21 @@ public class CityController {
         return cityService.add(city);
     }
 
+    @GetMapping("/list/cities")
+    public Object getCities(@ModelAttribute BaseVo baseVo){
+        logger.info("参数信息：{}", baseVo);
+        PageHelper.startPage(baseVo.getCurrentPage(), baseVo.getPageSize());
+        List<City> cities = cityService.selectCities();
+        return new PageInfo<>(cities);
+    }
+
+    @GetMapping("/list/test")
+    public Object getTest(@ModelAttribute BaseVo baseVo){
+        logger.info("参数信息：{}", baseVo);
+        PageHelper.startPage(baseVo.getCurrentPage(), baseVo.getPageSize());
+        List<City> cities = cityService.selectTest();
+        return new PageInfo<>(cities);
+    }
+
 
 }

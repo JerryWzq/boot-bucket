@@ -37,4 +37,12 @@ public class CityService implements BaseService<City> {
     public boolean updateById(City city) {
         return false;
     }
+
+    public List<City> selectCities(){
+        return mapper.selectCities();
+    }
+
+    public List<City> selectTest(){
+        return mapper.selectTest();
+    }
 }

@@ -5,6 +5,26 @@
 <!--映射文件配置，namespace指向接口-->
 <mapper namespace="com.wzq.mapper.CityMapper">
 
+    <sql id="cityColumns">
+        ${alias}.id,${alias}.city_name,${alias}.p_id,${alias}.size
+    </sql>
+
+    <sql id="tableInclude">
+        from
+        <include refid="${target_table}"/>
+    </sql>
+    <sql id="table">
+        ${prefix}
+    </sql>
+
+    <select id="selectTest" resultType="City">
+        select id, city_name, size, p_id
+        <include refid="tableInclude">
+            <property name="prefix" value="city"/>
+            <property name="target_table" value="table"/>
+        </include>
+    </select>
+
     <resultMap type="com.wzq.model.City" id="cityMap">
         <id column="id" property="id"/>
         <result column="city_name" property="cityName"/>
@@ -17,10 +37,20 @@
         select * from city
     </select>
 
+    <select id="selectCities" resultType="City">
+        select
+        <include refid="cityColumns">
+            <property name="alias" value="c"></property>
+        </include>
+        from city c
+    </select>
+
     <insert id="add" parameterType="City">
         insert into city
           (city_name, p_id, size)
           values
           (#{cityName}, #{pId}, #{citySize,typeHandler=EnumTypeHandler})
     </insert>
+
+
 </mapper>
