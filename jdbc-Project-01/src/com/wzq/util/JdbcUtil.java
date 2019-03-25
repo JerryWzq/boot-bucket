@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class JdbcUtil {
 
-    public Connection getConnection() throws ClassNotFoundException, SQLException {
+    public static Connection getConnection() throws ClassNotFoundException, SQLException {
         String driverName;
         String jdbcUrl;
         String user;
@@ -17,7 +17,8 @@ public class JdbcUtil {
         InputStream in ;
         try {
             Properties properties = new Properties();
-            in = getClass().getClassLoader().getResourceAsStream("jdbc.properties");
+            in = JdbcUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");
+//            in = getClass().getClassLoader().getResourceAsStream("jdbc.properties");
             properties.load(in);
             //获取配置文件的值
             driverName = properties.getProperty("driverName");
@@ -69,9 +70,8 @@ public class JdbcUtil {
 
     @Test
     public void test01(){
-        JdbcUtil util  = new JdbcUtil();
         try {
-            Connection connection = util.getConnection();
+            Connection connection = JdbcUtil.getConnection();
             System.err.println(connection);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
