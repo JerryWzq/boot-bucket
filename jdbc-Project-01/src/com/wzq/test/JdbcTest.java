@@ -11,7 +11,7 @@ public class JdbcTest {
     public void test01(){
         String sql = "select id, name from member where name=?";
         Object[] objects = {"Bob"};
-        Member member = BaseMapper.get(Member.class, sql, objects);
+        Member member = BaseMapper.get(Member.class, sql, false, objects);
         System.err.println(member.toString());
     }
 
@@ -20,7 +20,16 @@ public class JdbcTest {
         String sql = "select id, province_code provinceCode, province_name provinceName from province " +
                 "where province_name=?";
         Object[] objects = {"江西"};
-        Province province = BaseMapper.get(Province.class, sql, objects);
+        Province province = BaseMapper.get(Province.class, sql, false, objects);
+        System.err.println(province.toString());
+    }
+
+    @Test
+    public void test03(){
+        String sql = "select id, province_code, province_name from province " +
+                "where province_name=?";
+        Object[] objects = {"江西"};
+        Province province = BaseMapper.get(Province.class, sql, true, objects);
         System.err.println(province.toString());
     }
 
