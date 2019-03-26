@@ -5,6 +5,8 @@ import com.wzq.entity.Province;
 import com.wzq.mapper.BaseMapper;
 import org.junit.Test;
 
+import java.util.List;
+
 public class JdbcTest {
 
     @Test
@@ -31,6 +33,15 @@ public class JdbcTest {
         Object[] objects = {"江西"};
         Province province = BaseMapper.get(Province.class, sql, true, objects);
         System.err.println(province.toString());
+    }
+
+    @Test
+    public void test04(){
+        String sql = "select id, province_code provinceCode, province_name provinceName from province " +
+                "where province_name like ?";
+        Object[] objects = {"%西%"};
+        List<Province> provinces = BaseMapper.getForList(Province.class, sql, objects);
+        System.err.println(provinces);
     }
 
 
