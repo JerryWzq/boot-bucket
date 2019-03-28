@@ -6,6 +6,10 @@ import com.wzq.mapper.BaseMapperImpl;
 import com.wzq.util.JdbcUtil;
 import org.junit.Test;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.sql.*;
 import java.util.List;
 
@@ -108,6 +112,70 @@ public class JdbcTest {
         } finally {
             JdbcUtil.release(connection, preparedStatement, resultSet);
         }
+    }
+
+    /**
+     * 测试插入大文本（图片）
+     */
+    @Test
+    public void testBlob(){
+        String sql = "insert into member (name, picture) values(?, ?)";
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        try {
+            connection = JdbcUtil.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setObject(1, "jerry");
+            InputStream in = new FileInputStream("wallpaper.png");
+            preparedStatement.setBlob(2, in);
+            preparedStatement.execute();
+            in.close();
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            JdbcUtil.release(connection, preparedStatement, null);
+        }
+    }
+
+    /**
+     * 测试从数据库读取图片
+     */
+    @Test
+    public void testReadBlob(){
+
+        String sql = "select id, name, picture from member where id=?";
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        try {
+            connection = JdbcUtil.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setObject(1, 2);
+            resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                Integer id = resultSet.getInt(1);
+                String name = resultSet.getString(2);
+                System.err.println(id + ">>>>" + name);
+
+                Blob blob = resultSet.getBlob(3);
+                InputStream binaryStream = blob.getBinaryStream();
+                OutputStream outputStream = new FileOutputStream("wallpaper-db.png");
+                byte []  bytes = new byte[1024];
+                int len = 0;
+                while((len = binaryStream.read(bytes)) != -1){
+                    outputStream.write(bytes);
+                }
+
+                outputStream.close();
+                binaryStream.close();
+
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            JdbcUtil.release(connection, preparedStatement, resultSet);
+        }
+
     }
 
 
